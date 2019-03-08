@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Front End K08</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,800" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./responsive.css" />
+</head>
+
+<body>
+    <!-- Menu Start -->
+    <nav class="navbar navbar-expand-lg navbar-light mmenu mobile">
+        <img src="/Users/mac24h/Downloads/camera.png" alt="image cannot be displayed" class="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="/Users/mac24h/Downloads/menu.png" alt="image cannot be displayed" class="bars">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        New Pictures
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Illustations</a>
+                        <a class="dropdown-item" href="#">Hand Drawings</a>
+                      
+                        <a class="dropdown-item" href="#">Animes</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        News
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Breaking News</a>
+                        <a class="dropdown-item" href="#">Anime News</a>
+                        
+                        
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                      About us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Who we are</a>
+                        <a class="dropdown-item" href="#">Contacts</a>
+                       
+                        
+                    </div>
+                </li>
+               
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <section class="menu desktop">
+        <div class="cus-container">
+            <div class="logo">
+                <img src="/Users/mac24h/Downloads/camera.png">
+            </div>
+            <div class="list-menu">
+                <ul>
+                    <li class="parent">
+                        <a>New Pictures</a>
+                        <ul class="child">
+                            <li> Illustations</li>
+                            <li>Hand Drawings</li>
+                            <li>Anime</li>
+                        </ul>
+                    </li>
+                    <li class="parent">
+                        <a> News </a>
+                        <ul class="child">
+                            <li> Breaking News</li>
+                            <li>Anime News</li>
+
+                        </ul>
+                    </li>
+                    <li class="parent"> <a> About Us</a>
+                        <ul class="child">
+                            <li> Who we are</li>
+                            <li> Contacts</li>
+
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu End -->
+
+    <!-- Slider Start -->
+    <section class="slider">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/Users/mac24h/Documents/Web designs/Web code main page/images/anime 1.jpg"
+                        alt="First slide">
+
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/Users/mac24h/Documents/Web designs/Web code main page/images/anime 2.jpg"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/Users/mac24h/Documents/Web designs/Web code main page/images/anime 3.jpg"
+                        alt="Third slide">
+                </div>
+            </div>
+            <a class=" control left" href="#carouselExampleControls" role="button" data-slide="prev">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+            <a class=" control right" href="#carouselExampleControls" role="button" data-slide="next">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+    </section>
+    <!-- Slider End -->
+    <!-- Content start-->
+    <section class="content">
+        <div class="cus-container">
+            <div class="top">
+                <div class="c-up">
+                    <div>
+                        <img src="/Users/mac24h/Documents/Web designs/Web code main page/images/anime1(content).jpg"class="content-img">
+                    </div>
+                    <div class="text">
+                        <h class="heading" style="color:white"> DANGANROPA</h>
+                        <P class="para"> The series revolves around the elite high school, Hope's Peak Academy (希望ヶ峰学園
+                            Kibōgamine Gakuen, lit. Kibogamine Academy), which, every year, selects "Ultimate" students
+                            (超高校級 chō-kōkō-kyū, lit. Super High School Level)[a] talented high school students who are
+                            in the top of their field, along with one "Ultimate Lucky Student" who is chosen by
+                            lottery.</P>
+
+                    </div>
+
+
+                </div>
+
+                <div class="c-down">
+                    <div>
+                        <img src="/Users/mac24h/Documents/Web designs/Web code main page/images/anime2(content).jpg"class="content-img">
+                    </div>
+                    <div class="text">
+                        <h class="heading" style="color:white"> DRINKING</h>
+                        <P class="para"> As with most things, the amount of water for each person should drink a day
+                            varies between each individual. Some suggest 8 (8 oz) glasses a day while others suggest
+                            taking your body weight (in pounds), dividing it in half, and drink that many ounces. But
+                            first and foremost, you must listen to what your body needs.</P>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Content end-->
+    <!-- Footer start-->
+    <section class="footer">
+
+        <div class="cus-container">
+            <div class="main">
+                <h1> Website for amazing designers</h1>
+                <p>FOLLOW SOCIAL MEDIAS FOR UPDATES</p>
+            </div>
+
+            <div class="social">
+                <i class="fab fa-facebook-square  icon1"></i>
+                <i class="fab fa-twitter-square  icon2 "></i>
+                <i class="fab fa-instagram  icon3 "></i>
+
+            </div>
+
+    </section>
+    <!-- Footer end-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

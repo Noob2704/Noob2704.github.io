@@ -1,0 +1,175 @@
+ body{margin:0}
+.menu{ background-color: gray;
+       height: 82px;
+       margin-bottom:0;
+     }
+.cus-container{width: 1000px;
+               margin-left: auto;
+               margin-right:auto;
+               
+} 
+.menu .logo{float: left;
+            max-height: 100%; 
+            height: 60px 
+}
+.menu .cus-container,
+.menu .logo {
+    height: 100%;
+}
+.logo img{ max-height:100%; 
+           height:70px; 
+           padding-left: 5px;
+}
+.menu ul li {margin:0; 
+             margin-left:50px; 
+             display: inline-block;
+             padding: 20px 25px 25px;
+             font-family: 'Major Mono Display', monospace;
+             font-size: 25px;
+             color:aliceblue;
+}
+.list-menu{float: left
+}
+.slider{position: relative;
+}
+.menu ul{margin-bottom:0 ;
+          
+}
+ .slider {position: relative 
+}
+ .control{ position: absolute;
+           top: 50%; 
+           transform: translateY(-50%);
+           color:white;
+           font-size: 50px;
+}
+.right{margin-left: 96% }
+
+.slider.caption{position: absolute;
+                bottom:25px;
+                left: 100px
+}
+.slider.caption p{font-size: 20px;
+                  font-family: 'Major Mono Display', monospace;
+                  color: white;  
+}
+.list-menu .parent{position: relative;}
+.list-menu .child{position: absolute; 
+                  background-color:skyblue; 
+                  
+                  opacity: 1;
+                  height: 0;
+                  width: 100%;
+                  top: 100%;
+                  left: -1%;
+                  padding-left: 0;
+                  border-top: 4px solid yellow;
+                  transition: height 0.3s linear;
+                  overflow: hidden;
+                 
+                                    
+}
+
+
+                  
+.parent:hover .child{height: 150px;
+                     z-index: 1;
+}
+.list-menu .parent .child li{font-size: 20px;
+                             padding:0;
+                             margin: 0;
+                             display: block; 
+                             text-align: center;
+                             margin-bottom: 25px;
+                             color:black;
+
+                             
+}
+.child li:hover {background-color:lightcyan}
+
+.content .cus-container{width: 100%; 
+}
+
+.cus-container .c-up img{width: 50%; 
+                         float: left;
+                         height: 426px;
+}
+.cus-container .c-up .text{ width: 50%; 
+                            float: right; 
+                            height:426px ;
+}
+.cus-container .c-down img{width:50%;
+                           float:right;
+                           height:426px;
+}
+.cus-container .c-down .text{ width: 50%; 
+                              float: left; 
+                              height:426px ;
+}
+.para, .heading{display: block;
+                
+                font-family: 'Nunito', sans-serif;
+               
+                text-align: center;
+               
+               
+}
+.text{background-color: gray;
+      height: 427px;
+      
+}
+
+
+.content .para{font-size:20px; text-align: 
+               left; color:skyblue;
+               letter-spacing: 2px; 
+               margin-top:20px; 
+               padding-left: 10px; 
+               padding-right:10px
+}
+.content .heading{font-size:40px; 
+                  padding-top: 20px
+}
+.footer {width: 100%;
+         height:500px;
+         margin-top: 841px;
+         background-color:lightblue;
+
+}
+.footer .cus-container .main{ float:left; 
+    }
+.footer .cus-container{padding-top:150px}
+.footer .cus-container .main h1 {font-family:'Major Mono Display', 
+                                monospace; color:white; 
+                                text-align: center;
+                                padding-left:100px;
+                                margin-bottom: 50px
+}
+ .main p{ color:white;
+          text-align: center;
+          padding-left:35px;
+          
+          text-align: center;
+         
+}
+ .footer .cus-container .main{padding-right:25px
+}
+ .social .fab{display: inline; 
+               font-size:75px;
+               margin-left:100px
+}
+ .social{text-align: center; 
+         padding-top:220px;
+         transform: scale(1);
+}
+.social .icon1{margin-left:0
+}
+
+.icon1:hover  {color:blue; animation: test 1 ease;
+}
+.icon2:hover  {color: aqua
+}
+.icon3:hover  {background-color:lightcoral
+}
+.mobile{display: none;}
+
